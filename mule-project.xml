@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mule-project xmlns="http://www.mulesoft.com/tooling/project" runtimeId="org.mule.tooling.server.3.8.2.ee" schemaVersion="5.3.0.0">
+    <name>workdayintegrationservice</name>
+    <description>Workday Integration POC. This integration flow, gets the leave data from the HRINFO request queue, and then calls the Workday API in the Unum sandbox environment, and gets the response.&#xD;
+&#xD;
+The response is then written to the MongoDB NoSql database using the MongoDB connector.&#xD;
+</description>
+    <muleExtension name="AMQP-0-9" qualifier="mule-transport-amqp-contribution"/>
+    <muleExtension name="Salesforce" qualifier="org.mule.tooling.ui.contribution.sfdc.3.5.0"/>
+    <muleExtension name="SAP" qualifier="org.mule.tooling.ui.contribution.sap.3.5.0"/>
+</mule-project>

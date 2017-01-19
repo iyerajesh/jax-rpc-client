@@ -1,0 +1,16 @@
+{
+    "inputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "Workday__Advanced",
+            "typeId": "Human_Resources||Get_Employee"
+        }
+    },
+    "outputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "Workday__Advanced",
+            "typeId": "Human_Resources||Get_Employee"
+        }
+    },
+    "id": "3208f62d-a329-491f-8d68-1d995c459ada",
+    "version": "5.2.0.0"
+}
